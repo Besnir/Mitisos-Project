@@ -25,20 +25,19 @@
   <div id="overlay" class="overlay"></div>
   <ul id="mQueryUl" class="mQueryUl">
     <li><a href="index.html">Home</a> </li>
-    <li><a href="services.html">Services</a> </li>
+    <li><a href="services.html"  class="active">Services</a> </li>
     <li><a href="testimonials.html">Testimonials</a> </li>
-    <li><a href="aboutUs.html">About&nbsp;Us</a> </li>
-    <li><a href="contactUs.html"  class="active">Contact&nbsp;Us</a> </li>
+    <li><a href="">About&nbsp;Us</a> </li>
+    <li><a href="contactUs.html">Contact&nbsp;Us</a> </li>
   </ul>
   <header>
     <a href=""><img src="Images/migas_logo.png" alt="Migas Logo"></a>
     <ul>
       <li><a href="index.html">Home</a> </li>
-      <li><a href="services.html">Services</a> </li>
+      <li><a href="services.html"  class="active">Services</a> </li>
       <li><a href="testimonials.html">Testimonials</a> </li>
-      <li><a href="aboutUs.html">About&nbsp;Us</a> </li>
-      <li><a href="contactUs.html"  class="active">Contact&nbsp;Us</a> </li>
-    </ul>
+      <li><a href="">About&nbsp;Us</a> </li>
+      <li><a href="contactUs.html">Contact&nbsp;Us</a> </li>
     </ul>
     <div class="contener">
       <a href="catalog.html" class="catalog">Catalog <i class="fa-solid fa-arrow-right"></i></a>
@@ -47,77 +46,112 @@
   </header>
   
   <div class="generalHeading">
-    <h1>Get in touch with us.</h1>
+    <h1>You will receive the ideal resolutions with our expert services.</h1>
   </div>
 
-  <div class="containerGIU">
-    <form onsubmit="sendEmail(); reset(); return false;" class="helpcenter">
-      <h2>HOW&nbsp;CAN&nbsp;I&nbsp;HELP?</h2>
+   <!--RESOURCES-->
+   <div class="resources">
+    <div class="heading-bar">
+      <h1>Our&nbsp;available <span>Resources:</span> </h1>
+      <p>Get the perfect resolutions with our proficient services.</p>
+    </div>
 
-      <div class="formfill">
-        <div class="mainfill">
-          <div class="inputbox">
-            <input type="text" id="firstname" required>
-            <span>First Name</span>
+    <div class="resource-list">
+      <div class="reso">
+        <h1>Biogas system installation
+        </h1>
+        <p>
+          Professional installation of biogas systems customized to your needs, guaranteeing efficient energy generation from organic waste.
+        </p>
+        <i class="fa-regular fa-calendar"></i>
+      </div>
+
+      <div class="reso">
+        <h1>Bioseptic services</h1>
+        <p>
+          Regular inspection and maintenance of bioseptic systems to improve performance, ensure long-term reliability, minimize operational disruptions, and optimize waste treatment efficiency.
+        </p>
+        <i class="fa-solid fa-gas-pump"></i>
+      </div>
+
+      <div class="reso">
+        <h1>Thermal systems</h1>
+        <p>We offer consistent maintenance and monitoring of thermal systems to optimize efficiency and ensure long-term reliability, minimizing operational disruptions and maximizing heat output.</p>
+        <i class="fa-solid fa-fire-flame-simple"></i>
+      </div>
+
+      <div class="reso">
+        <h1>Solar services</h1>
+        <p>Regular inspection and cleaning of solar panels optimize energy absorption, maintain consistent performance, minimize downtime, and improve overall power generation.</p>
+        <i class="fa-solid fa-solar-panel"></i>
+        
+      </div>
+    </div>
+  </div>
+
+  <!--Why Us-->
+  <div class="preview">
+    <div class="why-us">
+      <h1>WHY&nbsp;US?</h1>
+      <h3>A commitment to exceeding 
+        your expectations every step of the way.
+      </h3>
+    </div>
+
+    <div class="homegrid-position">
+      <div class="home-grid">
+        <div class="benefit">
+          <div class="benefit-upper">
+            <div class="benefit-logo">
+              <img src="Images/profile.jfif">
+            </div>
+            <div class="benefit-heading">
+              <h2>&#8226;&nbsp;FREE&nbsp;CONSULTATION</h2>
+            </div>
           </div>
-
-          <div class="inputbox">
-            <input type="text" id="email" required>
-            <span>Email</span>
+          <div class="benefit-lower">
+            <p class="benefit-description">&#10003; Get all your questions ansewered without any hustle.</p>
+            <div class="direction">
+              <p>Click <a href="contactUs.html"><span>here</span></a> to get started now</p>
+              <a href="contactUs.html" class="button">Consult&nbsp;for&nbsp;free</a>
+            </div>
           </div>
         </div>
 
-        <div class="mainfill">
-          <div class="inputbox">
-            <input type="text" id="lastname" required>
-            <span>Last Name</span>
+        <div class="benefit">
+          <div class="benefit-upper">
+            <div class="benefit-logo">
+              <img src="Images/profile.jfif">
+            </div>
+            <div class="benefit-heading">
+              <h2>&#8226;&nbsp;24/7&nbsp;SUPPORT</h2>
+            </div>
           </div>
-
-          <div class="inputbox">
-            <input type="text" id="phonenumber" required>
-            <span>Phone</span>
+          <div class="benefit-lower">
+            <p class="benefit-description">&#10003; Our friendly team is set and ready to respond to your issues on time</p>
+            <div class="direction">
+              <p>Click <a href="contactUs.html"><span>here</span></a> to get started now</p>
+              <a href="contactUs.html" class="button">Start&nbsp;Chat</a>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div class="textAreaMain">
-        <textarea id="message" required></textarea>
-        <span>Type your message</span>
-      </div>
-
-      <div class="send-btn">
-        <input type="submit" value="Send">
-      </div>
-    </form>
-
-    <div class="contactInfo">
-      <div class="infobox">
-        <div class="box">
-          <i class="fa fa-map-marker" aria-hidden="true"></i>
-        </div>
-        <div class="info">
-          <h3>Address</h3>
-          <p>Kilifi, KENYA</p>
-        </div>
-      </div>
-
-      <div class="infobox">
-        <div class="box">
-          <i class="fa fa-envelope" aria-hidden="true"></i>
-        </div>
-        <div class="info">
-          <h3>Email</h3>
-          <p>mygascompani@gmail.com</p>
-        </div>
-      </div>
-
-      <div class="infobox">
-        <div class="box">
-          <i class="fa fa-phone" aria-hidden="true"></i>
-        </div>
-        <div class="info">
-          <h3>Phone</h3>
-          <p>+254756713646</p>
+        
+        <div class="benefit">
+          <div class="benefit-upper">
+            <div class="benefit-logo">
+              <img src="Images/profile.jfif">
+            </div>
+            <div class="benefit-heading">
+              <h2>&#8226;&nbsp;QUALITY&nbsp;SERVICE</h2>
+            </div>
+          </div>
+          <div class="benefit-lower">
+            <p class="benefit-description">&#10003; Get access to affordable advanced trading course</p>
+            <div class="direction">
+              <p>Click <a href="services.html"><span>here</span></a> to view our services</p>
+              <a href="services.html" class="button">Check&nbsp;out</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -130,11 +164,10 @@
         <h1>Short-Links</h1>
         <ul>
           <li><a href="index.html">Home</a> </li>
-          <li><a href="services.html">Services</a> </li>
+          <li><a href="services.html"  class="active">Services</a> </li>
           <li><a href="testimonials.html">Testimonials</a> </li>
           <li><a href="aboutUs.html">About&nbsp;Us</a> </li>
-          <li><a href="contactUs.html"  class="active">Contact&nbsp;Us</a> </li>
-        </ul>
+          <li><a href="contactUs.html">Contact&nbsp;Us</a> </li>
         </ul>
       </div>
       <div class="partition">
